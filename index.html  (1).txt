@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فصل 1/6 - مدرسة الإخصاص الثانوية</title>
+    <style>
+        :root {
+            --primary: #1a5f7a;
+            --secondary: #159895;
+            --accent: #00d7ff;
+            --bg: #f0f9ff;
+            --white: #ffffff;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); margin: 0; padding: 10px; color: #333; line-height: 1.6; }
+        .container { max-width: 1000px; margin: auto; background: var(--white); padding: 25px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 8px solid var(--primary); }
+        h1, h2, h3 { text-align: center; color: var(--primary); margin-bottom: 20px; }
+        
+        /* تحسين الجدول */
+        .table-container { overflow-x: auto; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        table { width: 100%; border-collapse: collapse; min-width: 600px; }
+        th, td { border: 1px solid #e0e0e0; padding: 15px; text-align: center; }
+        th { background-color: var(--primary); color: white; font-weight: 600; text-transform: uppercase; }
+        tr:nth-child(even) { background-color: #f8fbfc; }
+        tr:hover { background-color: #eef2ff; transition: 0.3s; }
+
+        /* شريط البحث */
+        .search-box { width: 100%; padding: 12px; margin: 20px 0; border: 2px solid var(--secondary); border-radius: 10px; font-size: 16px; outline: none; box-sizing: border-box; }
+
+        /* قائمة الأسماء */
+        .names-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px; margin-top: 20px; }
+        .name-item { background: #fff; padding: 12px; border-right: 6px solid var(--secondary); border-radius: 8px; font-size: 14px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; align-items: center; }
+        .name-number { font-weight: bold; color: var(--primary); margin-left: 10px; background: #e0f2f1; padding: 2px 8px; border-radius: 50%; font-size: 12px; }
+
+        .footer { text-align: center; margin-top: 40px; padding: 25px; background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; border-radius: 15px; }
+        .contact-btn { display: inline-block; background: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 50px; margin-top: 15px; font-weight: bold; transition: 0.3s; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3); }
+        .contact-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div style="text-align: center;">
+        <img src="https://img.icons8.com/fluency/96/school.png" alt="School Icon">
+    </div>
+    <h1>مدرسة الإخصاص الثانوية المشتركة</h1>
+    <h3>جدول حصص فصل (1/6) - العام الدراسي 2025/2026</h3>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>اليوم</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>الأحد</td>
+                    <td>علوم متكاملة</td>
+                    <td>-</td>
+                    <td>عربي</td>
+                    <td>-</td>
+                    <td>دين</td>
+                    <td>-</td>
+                    <td>إنجليزي</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>الاثنين</td>
+                    <td>ألعاب</td>
+                    <td>تاريخ</td>
+                    <td>-</td>
+                    <td>فلسفة</td>
+                    <td>-</td>
+                    <td>رياضة</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>الثلاثاء</td>
+                    <td>إنجليزي</td>
+                    <td>-</td>
+                    <td>البرمجة</td>
+                    <td>علوم متكاملة</td>
+                    <td>-</td>
+                    <td>عربي</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>الأربعاء</td>
+                    <td>رياضة</td>
+                    <td>-</td>
+                    <td>فلسفة</td>
+                    <td>-</td>
+                    <td>فرنساوي</td>
+                    <td>-</td>
+                    <td>نشاط تربوي</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>الخميس</td>
+                    <td>تاريخ</td>
+                    <td>-</td>
+                    <td>علوم متكاملة</td>
+                    <td>-</td>
+                    <td>البرمجة</td>
+                    <td>-</td>
+                    <td>عربي</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <h2>كشف أسماء الطلاب (فصل 1/6)</h2>
+    <input type="text" id="searchInput" class="search-box" placeholder="ابحث عن اسم الطالب هنا...">
+    
+    <div class="names-list" id="namesContainer">
+        <div class="name-item"><span class="name-number">1</span>محمد سيد محمد أحمد حسين</div>
+        <div class="name-item"><span class="name-number">2</span>محمد شريف شوقي علي محمود</div>
+        <div class="name-item"><span class="name-number">3</span>محمد عاشور سعد أمين غريب</div>
+        <div class="name-item"><span class="name-number">4</span>محمد عاطف محمد جاد محمد</div>
+        <div class="name-item"><span class="name-number">5</span>محمد عرفات حسين محمود شلبي</div>
+        <div class="name-item"><span class="name-number">6</span>محمد علي حسن محمد مشحوت</div>
+        <div class="name-item"><span class="name-number">7</span>محمد علي سيد علي إبراهيم</div>
+        <div class="name-item"><span class="name-number">8</span>محمد علي شاهين علي محمود</div>
+        <div class="name-item"><span class="name-number">9</span>محمد فايز محمد فراج عبد الكريم</div>
+        <div class="name-item"><span class="name-number">10</span>محمد محمود منصور حسين منظور</div>
+        <div class="name-item"><span class="name-number">11</span>محمد مشهور يونس أبو زيد جبر</div>
+        <div class="name-item"><span class="name-number">12</span>محمد وحيد عبد المنعم بيومي</div>
+        <div class="name-item"><span class="name-number">13</span>محمود حسين محمود محمد حسانين</div>
+        <div class="name-item"><span class="name-number">14</span>محمود حماد حمزة محمد عوض الله</div>
+        <div class="name-item"><span class="name-number">15</span>محمود راضي سعيد سيف محمد</div>
+        
+        <div class="name-item"><span class="name-number">16</span>مريم رمضان حسين عبد ربه محمود</div>
+        <div class="name-item"><span class="name-number">17</span>مريم رمضان عبد الرحمن أبو سريع داود</div>
+        <div class="name-item"><span class="name-number">18</span>مريم طارق سعيد أحمد سيد</div>
+        <div class="name-item"><span class="name-number">19</span>مريم عبد المنعم عبد الرؤوف مشرف الحاج</div>
+        <div class="name-item"><span class="name-number">20</span>مريم عصام رمضان أحمد حسين</div>
+        <div class="name-item"><span class="name-number">21</span>مريم محمد سعيد عبد الونيس سعيد</div>
+        <div class="name-item"><span class="name-number">22</span>مريم محمود زكريا سيد محمد</div>
+        <div class="name-item"><span class="name-number">23</span>مريم نشأت إبراهيم توفيق محمد</div>
+        <div class="name-item"><span class="name-number">24</span>مريم هاني سمير أمين برسوم</div>
+        <div class="name-item"><span class="name-number">25</span>ملك أحمد أحمد عوض الله عبد المقصود</div>
+        <div class="name-item"><span class="name-number">26</span>ملك أحمد جمعة عبد العليم إسماعيل</div>
+        <div class="name-item"><span class="name-number">27</span>ملك أحمد صلاح عبد الكريم درويش</div>
+        <div class="name-item"><span class="name-number">28</span>ملك أحمد كمال عبد الله علي</div>
+        <div class="name-item"><span class="name-number">29</span>ملك أحمد محمد عبد الغني علي</div>
+        <div class="name-item"><span class="name-number">30</span>ملك أسامة سيد سلامة قاسم</div>
+        <div class="name-item"><span class="name-number">31</span>ملك أيمن سلامة سيف محمد</div>
+        <div class="name-item"><span class="name-number">32</span>ملك حسين ماضي حسن محمد</div>
+        <div class="name-item"><span class="name-number">33</span>ملك رامي أحمد أحمد درغام</div>
+        <div class="name-item"><span class="name-number">34</span>ملك زكريا توفيق محمود أحمد</div>
+        <div class="name-item"><span class="name-number">35</span>ملك سامي عز الدين عبد الفتاح خطاب</div>
+        <div class="name-item"><span class="name-number">36</span>ملك سعد محمد حماد محمد</div>
+        <div class="name-item"><span class="name-number">37</span>ملك سعيد محمد زناتي</div>
+        <div class="name-item"><span class="name-number">38</span>ملك سيد محمد بكري شافعي</div>
+        <div class="name-item"><span class="name-number">39</span>ملك شعبان عبد الظاهر حسن عويس</div>
+        <div class="name-item"><span class="name-number">40</span>ملك صبري أحمد مرزوق عويس</div>
+        <div class="name-item"><span class="name-number">41</span>ملك عصام محمد عبد الحميد</div>
+        <div class="name-item"><span class="name-number">42</span>ملك عماد فتحي محمد عبود</div>
+        <div class="name-item"><span class="name-number">43</span>ملك عمرو ثابت عبد العال</div>
+        <div class="name-item"><span class="name-number">44</span>ملك محسن عبده إسماعيل عبد ربه</div>
+    </div>
+
+    <div class="footer">
+        <p>تصميم وإشراف: محمود حسين</p>
+        <p>مدير المدرسة: أ/ فكري هاشم الزيدي</p>
+        <a href="https://wa.me/201011064473" class="contact-btn">تواصل مع المسؤول (واتساب)</a>
+    </div>
+</div>
+
+<script>
+    // خاصية البحث
+    document.getElementById('searchInput').addEventListener('keyup', function() {
+        let filter = this.value.toLowerCase();
+        let items = document.querySelectorAll('.name-item');
+        items.forEach(function(item) {
+            if (item.textContent.toLowerCase().includes(filter)) {
+                item.style.display = "";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
